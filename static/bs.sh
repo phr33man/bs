@@ -4,7 +4,7 @@
 
 ### OPTIONS AND VARIABLES ###
 
-dotfilesrepo="https://github.com/phr33man/voidrice.git"
+dotfilesrepo="git@github.com:phr33man/dotfiles.git"
 progsfile="https://raw.githubusercontent.com/phr33man/bs/master/static/progs.csv"
 aurhelper="yay"
 repobranch="master"

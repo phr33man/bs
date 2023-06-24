@@ -1,0 +1,16 @@
+baseURL = 'https://bs.xyz/'
+languageCode = 'en-us'
+title = 'BS'
+
+theme = 'lugo'
+
+[params]
+  taglist = false
+  nextprev = false
+  datesinlist = false
+  authorsinlist = false
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true

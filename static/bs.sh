@@ -5,7 +5,8 @@
 ### OPTIONS AND VARIABLES ###
 
 dotfilesrepo="git@github.com:phr33man/dotfiles.git"
-progsfile="https://raw.githubusercontent.com/phr33man/bs/master/static/progs.csv"
+parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
+progsfile="${parent_path}/progs.csv"
 aurhelper="yay"
 repobranch="master"
 export TERM=ansi

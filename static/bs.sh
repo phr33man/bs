@@ -4,8 +4,7 @@
 
 ### OPTIONS AND VARIABLES ###
 
-#dotfilesrepo="https://github.com/phr33man/dotfiles.git"
-dotfilesrepo="https://github.com/lukesmithxyz/voidrice.git"
+dotfilesrepo="https://github.com/phr33man/dotfiles.git"
 parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
 progsfile="${parent_path}/progs.csv"
 aurhelper="yay"

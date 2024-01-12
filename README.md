@@ -4,6 +4,9 @@
 
 On an Arch-based distribution as root, run the following:
 
+curl -LO https://raw.githubusercontent.com/phr33man/bs/master/static/bs.sh
+sh bs.sh
+
 That's it.
 
 ## What is BS?
